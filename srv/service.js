@@ -1,4 +1,5 @@
-const cds = require('@sap/cds');
+//de aqui viene la logica
+/*const cds = require('@sap/cds');
 const { $lsp } = require('@sap/cds/lib/compile/cdsc');
 
 module.exports = cds.service.impl(async function(srv){
@@ -34,5 +35,5 @@ module.exports = cds.service.impl(async function(srv){
         }
        return result;})
 } )
-
+*/
 

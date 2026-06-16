@@ -1,5 +1,5 @@
-@protocol:'rest'
-service product{
+//@protocol:'rest'
+/*service product{
     function printhelloworld (input:String)
     returns String;
 
@@ -9,4 +9,4 @@ service product{
     type object{};
     function MyFunction(category: Integer)
     returns object;
-}
+}*/
