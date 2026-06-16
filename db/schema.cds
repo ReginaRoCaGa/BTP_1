@@ -1,4 +1,5 @@
 namespace sap.cap.proyecto1;
+using{cuid, managed} from '@sap/cds/common';
 
 //PARA HEREDAR
 aspect carbonemission {
@@ -11,9 +12,8 @@ type pricecost{
     stock : Integer;
 
 }
-entity Product : carbonemission
+entity Product : cuid, carbonemission, managed
 {
-    key ID : Integer;
     name : String;
    cost : pricecost;
     category : Integer;

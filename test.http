@@ -11,3 +11,16 @@
 
 #Supplier
 #GET http://localhost:4004/odata/v4/proyect1/Supplier
+
+#Añadir carro
+POST http://localhost:4004/odata/v4/proyect1/Product 
+Content-Type: application/json
+
+{
+   "emission": 232344,
+   "rating": 4.5,
+   "name": "Toyota",
+   "category": 1,
+   "cost_price": 20000,
+   "cost_stock": 5
+}
