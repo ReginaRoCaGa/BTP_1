@@ -8,3 +8,4 @@
 ##cds watch
 Inicia el servidor
 
+##namespace -> unique name to your application
