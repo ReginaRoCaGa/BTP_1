@@ -1,11 +1,21 @@
 namespace sap.cap.proyecto1;
 
-entity Product
+//PARA HEREDAR
+aspect carbonemission {
+    emission : Integer;
+    rating : Integer;
+}
+
+type pricecost{
+    price : Integer;
+    stock : Integer;
+
+}
+entity Product : carbonemission
 {
     key ID : Integer;
     name : String;
-    stock : Integer;
-    price : Integer;
+   cost : pricecost;
     category : Integer;
 }
 

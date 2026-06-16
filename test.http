@@ -10,4 +10,4 @@
 #GET http://localhost:4004/odata/v4/proyect1/Product
 
 #Supplier
-GET http://localhost:4004/odata/v4/proyect1/Supplier
+#GET http://localhost:4004/odata/v4/proyect1/Supplier
