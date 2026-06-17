@@ -1,4 +1,2 @@
-ID,name,category,cost_price,cost_stock,emission,rating
-1, BMW,1,34565,3,3425556,A
-2,AUDI,2,345256,54,3452365,B
-3,HYUNDAI,3,3452534,3,45235,C
+ID,emission,supplier_ID,name,price,stock,category,rating,criticality
+ccfbab10-35a6-4057-b87d-1e08309d5b17,23423,1,Audio,2354,34,A,A,5

@@ -10,13 +10,15 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-project1_fiori": "cds watch --open ns.project1fiori/index.html?sap-ui-xx-viewCache=false --livereload false"
+    "watch-project1_fiori": "cds watch --open ns.project1fiori/index.html?sap-ui-xx-viewCache=false --livereload false",
+    "watch-product": "cds watch --open ns.product/index.html?sap-ui-xx-viewCache=false --livereload false"
   },
   "private": true,
   "workspaces": [
     "app/*"
   ],
   "sapux": [
-    "app/project1_fiori"
+    "app/project1_fiori",
+    "app/product"
   ]
 }
