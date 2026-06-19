@@ -23,9 +23,9 @@ entity Product : cuid, managed, carbonemission
 {
     name : String;
     //cost : pricecost;
+    category : String;
     price : Integer;
     stock : Integer;
-    category : String;
     criticality : Integer;
     supplier : Association to one Supplier;
     conversation: Composition of many {

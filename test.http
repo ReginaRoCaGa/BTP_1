@@ -30,9 +30,9 @@
 #GET http://localhost:4004/odata/v4/proyect1/Product?$expand=conversation 
 
 #GET http://localhost:4004/odata/v4/proyect1/MyFunction(name='John Doe')
-POST http://localhost:4004/odata/v4/proyect1/MyAction
-Content-Type: application/json
+#POST http://localhost:4004/odata/v4/proyect1/MyAction
+#Content-Type: application/json
 
-{
-  "name": "Luis Morin"
-}
+#{
+ # "name": "Luis Morin"
+#}

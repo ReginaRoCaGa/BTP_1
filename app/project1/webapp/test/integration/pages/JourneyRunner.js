@@ -1,12 +1,12 @@
 sap.ui.define([
     "sap/fe/test/JourneyRunner",
-	"ns/product/test/integration/pages/ProductList",
-	"ns/product/test/integration/pages/ProductObjectPage"
+	"ns/project1/test/integration/pages/ProductList",
+	"ns/project1/test/integration/pages/ProductObjectPage"
 ], function (JourneyRunner, ProductList, ProductObjectPage) {
     'use strict';
 
     var runner = new JourneyRunner({
-        launchUrl: sap.ui.require.toUrl('ns/product') + '/test/flp.html#app-preview',
+        launchUrl: sap.ui.require.toUrl('ns/project1') + '/test/flp.html#app-preview',
         pages: {
 			onTheProductList: ProductList,
 			onTheProductObjectPage: ProductObjectPage

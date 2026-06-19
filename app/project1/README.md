@@ -1,15 +1,15 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Wed Jun 17 2026 19:34:33 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Thu Jun 18 2026 23:26:20 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.26.0|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>List Report Page V4|
 |**Service Type**<br>Local CAP|
 |**Service URL**<br>http://localhost:4004/odata/v4/proyect1/|
-|**Module Name**<br>product|
-|**Application Title**<br>Project 1|
+|**Module Name**<br>project1|
+|**Application Title**<br>proyecto1|
 |**Namespace**<br>ns|
 |**UI5 Theme**<br>sap_fiori_3_dark|
 |**UI5 Version**<br>1.149.0|
@@ -18,7 +18,7 @@
 |**Main Entity**<br>Product|
 |**Navigation Entity**<br>None|
 
-## product
+## project1
 
 An SAP Fiori application.
 
@@ -26,7 +26,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated app, start your CAP project:  and navigate to the following location in your browser:
 
-http://localhost:4004/ns.product/index.html
+http://localhost:4004/ns.project1/index.html
 
 #### Pre-requisites:
 

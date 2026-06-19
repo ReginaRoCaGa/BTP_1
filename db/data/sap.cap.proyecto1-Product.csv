@@ -1,2 +1,2 @@
-ID,emission,supplier_ID,name,price,stock,category,rating,criticality
-ccfbab10-35a6-4057-b87d-1e08309d5b17,23423,1,Audio,2354,34,A,A,5
+ID,name,category,price,stock,criticality,emission,rating,supplier_ID
+ccfbab10-35a6-4057-b87d-1e08309d5b17,Audi,A,23334,33,1,15,2,7536d214-c319-4854-b78a-0384d0b2dd16
