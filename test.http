@@ -35,4 +35,6 @@
 
 #{
  # "name": "Luis Morin"
-#}
+#}  
+
+GET http://localhost:4004/odata/v4/proyect1/Product

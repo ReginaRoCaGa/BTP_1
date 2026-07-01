@@ -2,15 +2,15 @@ using { sap.cap.proyecto1 as my } from '../db/schema';
 
 service proyect1
 {
-    //@odata.draft.enabled
+    @odata.draft.enabled
     entity Product as
         projection on my.Product
         actions
         {
             action orderProduct
             (
-                @title : 'Product Name'
-                name : String,
+                //@title : 'Product Name'
+                //name : String,
                 @title : 'Stock'
                 stock : Integer
             );
@@ -29,3 +29,6 @@ service proyect1
     entity Supplier as
         projection on my.Supplier;
 }
+
+
+//annotate proyect1 with @(requires: 'productmanager');
